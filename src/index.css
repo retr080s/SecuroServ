@@ -8,6 +8,8 @@ body {
   padding: 0;
 }
 
+/* LOGIN */
+
 .login--menu {
   display: grid;
   justify-content: center;
@@ -90,3 +92,32 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
+
+/* ^ <--- LOGIN ---> ^ */
+
+/*  <--- SELECT --->  */
+
+.select--choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  min-height: 90vh;
+  /* margin-top: 200px; */
+}
+
+.select--choice > img {
+  width: 300px;
+  margin: 0px 10px;
+  border-top: 5px solid #c52622;
+  cursor: pointer;
+}
+
+.select--choice > img:hover {
+  /* border: 5px solid #4a9570; */
+  box-shadow: 0px 0px 0px 5px #4a9570;
+  border-top: 5px solid #4a9570;
+}
+
+/* ^ <--- SELECT ---> ^ */
