@@ -5,27 +5,77 @@
 body {
   background-color: #192b2f;
   margin: 0;
+  padding: 0;
 }
 
-.login-menu {
+.login--menu {
   display: grid;
   justify-content: center;
+  margin-top: -90px;
+}
+
+.login--menu_info {
+  display: grid;
+  justify-content: center;
+  width: 500px;
   background-color: #0d0d0d;
   border-top: 5px solid #c52622;
   margin-top: 250px;
 }
 
-.login-menu > img {
-  width: 150px;
-  margin-top: 10px;
+.login--menu_logo {
+  width: 500px;
+  margin-top: 30px;
 }
 
-.login-menu > h3 {
+.login--menu_login {
   color: #cbcbcb;
   text-align: center;
-  font-weight: 400;
+  font-weight: 600;
 }
 
-.login-menu > input {
-  display: grid;
+.login--menu_input {
+  margin-top: 25px;
+  margin-left: 8px;
+  background-color: #191919;
+  color: #cbcbcb;
+  border: none;
+  padding: 10px;
+  padding-left: 90px;
+}
+
+.login--menu_span {
+  text-align: center;
+  color: #cbcbcb;
+  font-weight: 600;
+  margin-left: -50px;
+}
+
+.login--menu_bottom {
+  display: flex;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.login--menu_bottom-text-version {
+  color: #949494;
+  margin-left: 50px;
+}
+
+.login--menu_bottom-button {
+  background-color: #631b1c;
+  border: none;
+  color: #c08d8a;
+  height: 30px;
+  width: 80px;
+  margin-top: 20px;
+  margin-left: 143px;
+  font-weight: 600;
+}
+
+.login--menu_bottom-button :hover {
+  background-color: #c52622;
+  border: none;
+  color: #cbcbcb;
+  font-weight: 600;
 }
