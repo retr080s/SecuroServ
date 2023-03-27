@@ -11,7 +11,7 @@ body {
 .login--menu {
   display: grid;
   justify-content: center;
-  margin-top: -90px;
+  margin-top: -80px;
 }
 
 .login--menu_info {
@@ -24,7 +24,9 @@ body {
 }
 
 .login--menu_logo {
-  width: 500px;
+  /* width: 500px; */
+  width: 180px;
+  margin-left: 160px;
   margin-top: 30px;
 }
 
@@ -32,16 +34,23 @@ body {
   color: #cbcbcb;
   text-align: center;
   font-weight: 600;
+  letter-spacing: 3px;
 }
 
 .login--menu_input {
   margin-top: 25px;
   margin-left: 8px;
+  margin-right: -40px;
   background-color: #191919;
   color: #cbcbcb;
   border: none;
   padding: 10px;
-  padding-left: 90px;
+  width: 320px;
+  text-align: left;
+}
+
+.login--menu_input:focus {
+  outline: none;
 }
 
 .login--menu_span {
@@ -55,27 +64,29 @@ body {
   display: flex;
   width: 500px;
   margin-bottom: 20px;
+  vertical-align: bottom;
 }
 
 .login--menu_bottom-text-version {
-  color: #949494;
-  margin-left: 50px;
+  color: #777676;
+  margin-left: 30px;
 }
 
 .login--menu_bottom-button {
-  background-color: #631b1c;
-  border: none;
-  color: #c08d8a;
-  height: 30px;
-  width: 80px;
-  margin-top: 20px;
-  margin-left: 143px;
-  font-weight: 600;
-}
-
-.login--menu_bottom-button :hover {
   background-color: #c52622;
   border: none;
   color: #cbcbcb;
+  height: 30px;
+  width: 80px;
+  margin-top: 20px;
+  margin-left: 233px;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.login--menu_bottom-button:hover {
+  background-color: #631b1c;
+  color: #c08d8a;
+  font-weight: 600;
+  cursor: pointer;
 }
