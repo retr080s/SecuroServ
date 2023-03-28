@@ -2,6 +2,8 @@ export default function SpecialCargo() {
   return (
     <div className='SpecialCargo'>
       <div className='special--cargo_info'>
+        {/* --- SPECIAL CARGO TOP INFO --- */}
+
         <div className='special--cargo_topinfo'>
           <h3 style={{ marginLeft: '20px' }}>Retr080s</h3>
           <ul
@@ -25,6 +27,11 @@ export default function SpecialCargo() {
             </li>
           </ul>
         </div>
+
+        {/* ^--- SPECIAL CARGO TOP INFO ---^ */}
+
+        {/* --- SPECIAL CARGO MIDDLE INFO --- */}
+
         <div className='special--cargo_middleinfo'>
           <ul
             style={{
@@ -44,6 +51,11 @@ export default function SpecialCargo() {
 
           <button className='button-1'>WAREHOUSE MAP</button>
         </div>
+
+        {/* ^--- SPECIAL CARGO MIDDLE INFO ---^ */}
+
+        {/* --- SPECIAL CARGO BOTTOM INFO --- */}
+
         <div className='special--cargo_bottominfo'>
           <h3 style={{ marginLeft: '20px' }}>WAREHOUSES</h3>
           <ul className='right' style={{ listStyleType: 'none' }}>
@@ -53,6 +65,11 @@ export default function SpecialCargo() {
             <li style={{ marginRight: '20px' }}>• MAX STORAGE</li>
           </ul>
         </div>
+
+        {/* ^--- SPECIAL CARGO BOTTOM INFO ---^ */}
+
+        {/* --- SPECIAL CARGO RIGHT INFO --- */}
+
         <div className='special--cargo_rightinfo'>
           <h3 style={{ marginLeft: '20px' }}> TOTAL STOCK</h3>
           <ul
@@ -77,6 +94,11 @@ export default function SpecialCargo() {
           </ul>
           <h1> 0 / 127 Crates</h1>
         </div>
+
+        {/* ^--- SPECIAL CARGO RIGHT INFO ---^ */}
+
+        {/* --- SPECIAL CARGO BOTTOM RIGHT INFO --- */}
+
         <div className='special--cargo_bottomright'>
           <h3 style={{ marginLeft: '20px' }}>ACTIVE ORGANIZATIONS</h3>
           <ul style={{ marginRight: '20px', fontSize: '18px' }}>
@@ -88,10 +110,17 @@ export default function SpecialCargo() {
             </li>
           </ul>
         </div>
+
+        {/* ^--- SPECIAL CARGO BOTTOM RIGHT INFO ---^ */}
+
+        {/* --- SPECIAL CARGO BOTTOM BUTTONS INFO --- */}
+
         <div className='special--cargo_bottombuttons'>
           <button className='button-2'>SUMMARY PAGE</button>
           <button className='button-3'>WAREHOUSE MAP</button>
         </div>
+
+        {/* ^--- SPECIAL CARGO BOTTOM BUTTONS INFO ---^ */}
       </div>
     </div>
   );
