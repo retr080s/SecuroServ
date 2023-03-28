@@ -128,11 +128,23 @@ body {
   background-image: url('src/images/special-cargo-background.png');
 }
 
+.right {
+  float: right;
+}
+
+.center {
+  float: center;
+}
+
+.red {
+  color: #c52622;
+}
+
 .special--cargo_info {
   display: grid;
   justify-content: center;
   grid-template-columns: 800px 400px;
-  grid-template-rows: 300px 150px 400px;
+  grid-template-rows: 230px 110px 400px;
   column-gap: 20px;
   row-gap: 20px;
   grid-template-areas:
@@ -151,6 +163,7 @@ body {
 
 .special--cargo_middleinfo {
   grid-area: middleinfo;
+
   background-color: rgba(0, 0, 0, 0.82);
 }
 .special--cargo_bottominfo {
@@ -165,6 +178,11 @@ body {
   grid-row: -4 / -2;
 }
 
+.special--cargo_rightinfo > h1 {
+  text-align: center;
+  font-weight: 400;
+}
+
 .special--cargo_bottomright {
   margin-top: 190px;
   background-color: rgba(0, 0, 0, 0.82);
@@ -174,7 +192,7 @@ body {
   display: flex;
   justify-content: right;
   margin-right: -550px;
-  margin-bottom: 20px;
+  margin-bottom: 126px;
 }
 
 .button-1 {
@@ -184,6 +202,13 @@ body {
   cursor: pointer;
   font-weight: 600;
   padding: 15px;
+  width: 250px;
+  margin-top: -80px;
+  float: right;
+  margin-right: 20px;
+  margin-top: -70px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .button-2 {
