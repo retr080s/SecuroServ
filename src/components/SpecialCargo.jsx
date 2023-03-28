@@ -3,7 +3,7 @@ export default function SpecialCargo() {
     <div className='SpecialCargo'>
       <div className='special--cargo_info'>
         <div className='special--cargo_topinfo'>
-          <h3 style={{ marginLeft: '20px' }}>PlayerName</h3>
+          <h3 style={{ marginLeft: '20px' }}>Retr080s</h3>
           <ul
             style={{
               marginRight: '20px',
@@ -81,9 +81,9 @@ export default function SpecialCargo() {
           <h3 style={{ marginLeft: '20px' }}>ACTIVE ORGANIZATIONS</h3>
           <ul style={{ marginRight: '20px', fontSize: '18px' }}>
             <li className='red'>
-              PlayerName
+              Retr080s
               <span className='right' style={{ color: '#cbcbcb' }}>
-                Organization
+                Retr080s Org
               </span>
             </li>
           </ul>

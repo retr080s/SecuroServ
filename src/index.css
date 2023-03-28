@@ -125,6 +125,7 @@ body {
 /*  <--- SPECIAL CARGO --->  */
 
 .SpecialCargo {
+  height: 1080px;
   background-image: url('src/images/special-cargo-background.png');
 }
 
