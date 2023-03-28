@@ -121,3 +121,89 @@ body {
 }
 
 /* ^ <--- SELECT ---> ^ */
+
+/*  <--- SPECIAL CARGO --->  */
+
+.SpecialCargo {
+  background-image: url('src/images/special-cargo-background.png');
+}
+
+.special--cargo_info {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 800px 400px;
+  grid-template-rows: 300px 150px 400px;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-areas:
+    'topinfo rightinfo'
+    'middleinfo .'
+    'bottominfo bottomright ';
+  color: #cbcbcb;
+}
+
+.special--cargo_topinfo {
+  margin-top: 50px;
+  grid-area: topinfo;
+  /* align-self: center; */
+  background-color: rgba(0, 0, 0, 0.82);
+}
+
+.special--cargo_middleinfo {
+  grid-area: middleinfo;
+  background-color: rgba(0, 0, 0, 0.82);
+}
+.special--cargo_bottominfo {
+  grid-area: bottominfo;
+  background-color: rgba(0, 0, 0, 0.82);
+}
+
+.special--cargo_rightinfo {
+  margin-top: 50px;
+  margin-bottom: -190px;
+  background-color: rgba(0, 0, 0, 0.82);
+  grid-row: -4 / -2;
+}
+
+.special--cargo_bottomright {
+  margin-top: 190px;
+  background-color: rgba(0, 0, 0, 0.82);
+}
+
+.special--cargo_bottombuttons {
+  display: flex;
+  justify-content: right;
+  margin-right: -550px;
+  margin-bottom: 20px;
+}
+
+.button-1 {
+  background-color: #c52622;
+  border: none;
+  color: #cbcbcb;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 15px;
+}
+
+.button-2 {
+  background-color: #c52622;
+  border: none;
+  color: #cbcbcb;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 5px;
+  width: 140px;
+}
+
+.button-3 {
+  background-color: #0d0d0d;
+  border: none;
+  color: #cbcbcb;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 5px;
+  width: 140px;
+}
+
+/* ^ <--- SPECIAL CARGO ---> ^ */
