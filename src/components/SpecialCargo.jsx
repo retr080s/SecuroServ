@@ -92,6 +92,11 @@ export default function SpecialCargo() {
               </span>
             </li>
           </ul>
+          <img
+            src='src/images/securoserv-logo.png'
+            style={{ width: '400px' }}
+          />
+
           <h1> 0 / 127 Crates</h1>
         </div>
 

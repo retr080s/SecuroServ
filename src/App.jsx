@@ -6,8 +6,8 @@ import SpecialCargo from './components/SpecialCargo';
 function App() {
   return (
     <div className='App'>
-      {/* <Login /> */}
-      {/* <Select /> */}
+      <Login />
+      <Select />
       <SpecialCargo />
     </div>
   );

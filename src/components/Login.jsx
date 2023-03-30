@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Login() {
   return (
     <div className='Login'>
@@ -26,6 +28,7 @@ export default function Login() {
           </span>
           <div className='login--menu_bottom'>
             <h4 className='login--menu_bottom-text-version'>VERSION 1.2.5</h4>
+
             <button className='login--menu_bottom-button'>Log in</button>
           </div>
         </div>
