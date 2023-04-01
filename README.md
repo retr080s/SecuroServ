@@ -2,6 +2,8 @@
 <img src="https://img.shields.io/badge/development-phase-brightgreen"> <img src="https://img.shields.io/badge/version-1.0-brightgreen"> <br>
 SecuroServ is both a private security organization and a feature in Grand Theft Auto Online.
 
+🚧Not working on this project until i figure out how to use React Router and ChartJS library🚧
+
 <h1>Current Build</h1>
 
 <h2>Login Page</h2>
